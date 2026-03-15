@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://yu-jin2.github.io/al-folio/sitemap.xml
+Sitemap: https://yu-jin2.github.io/sitemap.xml
