@@ -2,33 +2,29 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: 하드웨어 제어부터 다중 센서 퓨전 및 검증까지, 신뢰할 수 있는 정밀 측위 파이프라인을 구축하는 엔지니어입니다.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile_jin.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
+    <p>26.02 한국항공대 석사 졸업</p>
+    <p>24.08 한국항공대 학사 졸업</p>
     <p>Your City, State 12345</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+정확한 위치 추정과 인지 시스템을 설계하기 위해, 원시 데이터(Raw Data) 획득부터 알고리즘 검증까지 엔드투엔드(End-to-End)로 다룹니다. 직접 센서 하드웨어를 제어하고 다중 센서 측위 시스템을 구현해 보며 실제 환경에서 발생하는 노이즈와 오차의 한계를 깊이 이해했습니다. 이를 바탕으로 Stereo Camera와 2D LiDAR의 정밀 캘리브레이션 및 퓨전 환경을 구축하고, 알고리즘의 유효성을 철저히 검증하는 역량을 갖추었습니다. 센서 하드웨어에 대한 높은 이해도와 데이터 최적화 경험을 무기 삼아, 자율주행 및 GNSS 기반 항법 시스템에서 가장 신뢰할 수 있는 솔루션을 제안하겠습니다.
