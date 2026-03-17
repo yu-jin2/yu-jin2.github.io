@@ -17,8 +17,8 @@ nav_order: 5
     <h5 class="card-title">{{ paper.title }}</h5>
     <p class="card-text text-muted">{{ paper.event }} &nbsp;|&nbsp; {{ paper.date }}</p>
     <div>
-      {% if paper.pdf %}
-      <a href="{{ paper.pdf }}" target="_blank" class="btn btn-sm btn-outline-primary">PDF</a>
+      {% if paper.url %}
+      <a href="{{ paper.url }}" target="_blank" class="btn btn-sm btn-outline-secondary">Paper</a>
       {% endif %}
     </div>
   </div>
@@ -36,8 +36,8 @@ nav_order: 5
     <h5 class="card-title">{{ paper.title }}</h5>
     <p class="card-text text-muted">{{ paper.event }} &nbsp;|&nbsp; {{ paper.date }} &nbsp;|&nbsp; {{ paper.location }}</p>
     <div>
-      {% if paper.pdf %}
-      <a href="{{ paper.pdf }}" target="_blank" class="btn btn-sm btn-outline-primary">PDF</a>
+      {% if paper.url %}
+      <a href="{{ paper.url }}" target="_blank" class="btn btn-sm btn-outline-secondary">Paper</a>
       {% endif %}
     </div>
   </div>
