@@ -10,7 +10,7 @@ nav_order: 5
 
 ## Journal
 
-{% assign Journal = site.data.paper | where: "type", "Journal" %}
+{% assign Journal = site.data.paper | where: "type", "journal" %}
 {% for journal paper %}
 <div class="card mt-3">
   <div class="card-body">
@@ -29,7 +29,7 @@ nav_order: 5
 
 ## Conference
 
-{% assign Conference = site.data.paper | where: "type", "Conference" %}
+{% assign Conference = site.data.paper | where: "type", "conference" %}
 {% for conference paper %}
 <div class="card mt-3">
   <div class="card-body">
