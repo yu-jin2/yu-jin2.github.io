@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 nav: true
 nav_order: 3
-display_categories: [undergraduate, graduate]
+display_categories: [Graduate, Undergraduate]
 horizontal: false
 ---
 
