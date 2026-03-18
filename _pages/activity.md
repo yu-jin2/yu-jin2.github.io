@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Activity
+permalink: /activity/
 nav: true
 nav_order: 3
-horizontal: false
 ---
 
 ## 봉사활동
