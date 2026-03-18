@@ -9,7 +9,7 @@ nav_order: 3
 ## 교육이수
 
 {% assign edu = site.data.activity | where: "type", "edu" %}
-{% for paper in edu %}
+{% for activity in edu %}
 <div class="card mt-3">
   <div class="card-body">
     <h5 class="card-title">{{ activiy.title }}</h5>
@@ -24,7 +24,7 @@ nav_order: 3
 ## 봉사활동 및 재능기부
 
 {% assign val = site.data.activity | where: "type", "volunteer" %}
-{% for paper in val %}
+{% for activity in val %}
 <div class="card mt-3">
   <div class="card-body">
     <h5 class="card-title">{{ activiy.title }}</h5>
