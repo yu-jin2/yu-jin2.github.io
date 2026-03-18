@@ -4,7 +4,7 @@ permalink: /paper/
 title: Paper
 description: A list of my papers.
 nav: true
-nav_order: 5
+nav_order: 2
 ---
 
 
