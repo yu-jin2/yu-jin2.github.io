@@ -414,8 +414,8 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-스테레오-카메라와-2d-lidar-통합-캘리브레이션",
-          title: '스테레오 카메라와 2D LiDAR 통합 캘리브레이션',
+            },},{id: "projects-스테레오-카메라-캘리브레이션",
+          title: '스테레오 카메라 캘리브레이션',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
