@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-paper",
+  },{id: "nav-activity",
+          title: "Activity",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/_pages/Activity";
+          },
+        },{id: "nav-paper",
           title: "Paper",
           description: "A list of my papers.",
           section: "Navigation",
@@ -402,9 +409,9 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-스테레오-카메라와-2d-lidar-통합-캘리브레이션",
+          title: '스테레오 카메라와 2D LiDAR 통합 캘리브레이션',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
