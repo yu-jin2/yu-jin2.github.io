@@ -5,7 +5,6 @@ description:
 img: assets/img/12.jpg
 importance: 2
 category: Graduate
-related_publications: true
 ---
 
 <div class="row">
