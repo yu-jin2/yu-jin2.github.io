@@ -1,9 +1,9 @@
 ---
 layout: page
-title: 스테레오 카메라와 2D LiDAR 통합 캘리브레이션
+title: 스테레오 카메라 캘리브레이션
 description:
 img: assets/img/12.jpg
-importance: 1
+importance: 2
 category: Graduate
 related_publications: true
 ---
