@@ -52,9 +52,11 @@ category: Graduate
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/lidar.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid 
+            loading="eager" 
+            path="assets/img/lidar.png" 
+            caption="[통합 캘리브레이션 시스템 구조도]" 
+            class="img-fluid rounded z-depth-1" 
+        %}
     </div>
-</div>
-<div class="caption">
-    [통합 캘리브레이션 시스템 구조도]
 </div>
