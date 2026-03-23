@@ -30,6 +30,7 @@ latest_posts:
 
 연구관심분야: Multi-Sensor Fusion & Calibration  
 수상내역:
+
 [2024 종합설계 작품발표회 - 우수상]
 - 스마트폰 센서(카메라, INS, 고도계 등)와 외부 GNSS 수신기를 융합한 측위 시스템 개발
 - GNSS 단독 대비 위치 오차 56% 향상
