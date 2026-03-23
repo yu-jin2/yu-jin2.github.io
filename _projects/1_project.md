@@ -55,7 +55,7 @@ category: Graduate
         {% include figure.liquid 
             loading="eager" 
             path="assets/img/lidar.png" 
-            caption="[통합 캘리브레이션 시스템 구조도]" 
+            caption="[ 통합 캘리브레이션 시스템 구조도 ]" 
             class="img-fluid rounded z-depth-1" 
         %}
     </div>
