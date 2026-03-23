@@ -52,13 +52,16 @@ category: Undergraduate
 - GNSS Receiver: u-blox EVK-M8T, NovAtel ProPak6
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/exp.png" caption="[실험 환경]" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/exp_result_2.png" caption="[실험 결과(포인트클라우드와 궤적)]" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/chart_png.png" caption="[성능 비교 결과 (RMSE)]" class="img-fluid rounded z-depth-1" %}
-    </div>
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    {% include figure.liquid loading="eager" path="assets/img/exp.png" class="img-fluid rounded z-depth-1" %}
+    <div class="caption">[ 실험 환경 ]</div>
+  </div>
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    {% include figure.liquid loading="eager" path="assets/img/exp_result_2.png" class="img-fluid rounded z-depth-1" %}
+    <div class="caption">[ 실험 결과(포인트클라우드와 궤적) ]</div>
+  </div>
+  <div class="col-sm mt-3 mt-md-0 text-center">
+    {% include figure.liquid loading="eager" path="assets/img/chart_png.png" class="img-fluid rounded z-depth-1" %}
+    <div class="caption">[ 성능 비교 결과 (RMSE) ]</div>
+  </div>
 </div>
