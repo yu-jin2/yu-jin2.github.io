@@ -2,7 +2,7 @@
 layout: page
 title: 종합설계(스마트폰 내 탑재된 센서를 활용한 측위 시스템)
 description:
-img: assets/img/exp_2.png
+img: assets/img/exp_result_2.png
 importance: 3
 category: Undergraduate
 ---
@@ -56,7 +56,7 @@ category: Undergraduate
         {% include figure.liquid loading="eager" path="assets/img/exp.png" caption="[실험 환경]" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/exp_2.png" caption="[실험 결과(포인트클라우드와 궤적)]" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/exp_result_2.png" caption="[실험 결과(포인트클라우드와 궤적)]" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/chart_png.png" caption="[성능 비교 결과 (RMSE)]" class="img-fluid rounded z-depth-1" %}
