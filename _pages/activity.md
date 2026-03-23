@@ -14,7 +14,7 @@ nav_order: 3
   <div class="card-body">
     <h5 class="card-title">{{ activiy.title }}</h5>
     <p class="card-text text-muted">{{ activity.event }} &nbsp;|&nbsp; {{ activity.date }}</p>
-    <p class="card-text text-muted">{{ activity.discript}}}</p>
+    <p class="card-text text-muted">{{ activity.discript}}</p>
   </div>
 </div>
 {% endfor %}
@@ -29,7 +29,7 @@ nav_order: 3
   <div class="card-body">
     <h5 class="card-title">{{ activiy.title }}</h5>
     <p class="card-text text-muted">{{ activity.event }} &nbsp;|&nbsp; {{ activity.date }}</p>
-    <p class="card-text text-muted">{{ activity.discript}}}</p>
+    <p class="card-text text-muted">{{ activity.discript}}</p>
   </div>
 </div>
 {% endfor %}
