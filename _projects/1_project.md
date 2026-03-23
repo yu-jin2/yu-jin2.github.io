@@ -56,5 +56,5 @@ category: Graduate
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    [통합 캘리브레이션 시스템 구조도]
 </div>
