@@ -52,16 +52,24 @@ category: Graduate
 - Sensor: FLIR Bumblebee XB3
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/stereo_ov.png" caption="[전체 시스템 구조]" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0 text-center">
+        {% include figure.liquid path="assets/img/stereo_ov.png" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">[ 전체 시스템 구조 ]</div>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/stereo_sensor.png" caption="[센서 구성]" class="img-fluid rounded z-depth-1" %}
+
+    <div class="col-sm mt-3 mt-md-0 text-center">
+        {% include figure.liquid path="assets/img/stereo_sensor.png" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">[ 센서 구성 ]</div>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/stereo_result.png" caption="[실험 결과]" class="img-fluid rounded z-depth-1" %}
+
+    <div class="col-sm mt-3 mt-md-0 text-center">
+        {% include figure.liquid path="assets/img/stereo_result.png" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">[ 실험 결과 ]</div>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/stereo_ov_detail.png" caption="[최적화 구조]" class="img-fluid rounded z-depth-1" %}
+
+    <div class="col-sm mt-3 mt-md-0 text-center">
+        {% include figure.liquid path="assets/img/stereo_ov_detail.png" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">[ 최적화 구조 ]</div>
     </div>
 </div>
