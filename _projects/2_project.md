@@ -53,15 +53,15 @@ category: Graduate
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/stereo_ov.png" caption="전체 시스템 구조" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/stereo_ov.png" caption="(a) 전체 시스템 구조" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/stereo_sensor.png" caption="센서 구성" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/stereo_sensor.png" caption="(b) 센서 구성" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/stereo_result.png" caption="실험 결과" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/stereo_result.png" caption="(c) 실험 결과" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/stereo_ov_detail.png" caption="최적화 구조" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/stereo_ov_detail.png" caption="(d) 최적화 구조" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
