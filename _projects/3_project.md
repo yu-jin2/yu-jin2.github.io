@@ -61,7 +61,7 @@ category: Undergraduate
     <div class="caption">[ 실험 결과(포인트클라우드와 궤적) ]</div>
   </div>
   <div class="col-sm mt-3 mt-md-0 text-center">
-    {% include figure.liquid loading="eager" path="assets/img/chart_png.png" class="img-fluid rounded z-depth-1" %}
-    <div class="caption">[ 성능 비교 결과 (RMSE) ]</div>
+    {% include figure.liquid loading="eager" path="assets/img/chart.jpg" class="img-fluid rounded z-depth-1" %}
+    <div class="caption">[ 성능 비교 결과 ]</div>
   </div>
 </div>
