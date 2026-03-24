@@ -41,3 +41,25 @@ latest_posts:
 
 Tools: C++, Python, MATLAB, OpenCV, CATIA
 
+
+<br>
+
+## Selected Papers
+
+{% assign spaper = site.data.paper | where: "selected", true %}
+{% for paper in spaper %}
+<div class="card mt-3">
+  <div class="card-body">
+    <h5 class="card-title">{{ paper.title }}</h5>
+    <p class="card-text text-muted">{{ paper.event }} &nbsp;|&nbsp; {{ paper.date }} &nbsp;|&nbsp; {{ paper.location }}</p>
+    <div>
+      {% if paper.url %}
+      <a href="{{ paper.url }}" target="_blank" class="btn btn-sm btn-outline-secondary">Paper</a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% endfor %}
+
+
+
