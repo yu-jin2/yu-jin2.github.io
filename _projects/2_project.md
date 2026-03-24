@@ -2,7 +2,7 @@
 layout: page
 title: 스테레오 카메라 캘리브레이션
 description:
-img: assets/img/stereo_ov.png
+img: assets/img/stereo_ov.jpg
 importance: 2
 category: Graduate
 ---
@@ -54,7 +54,7 @@ category: Graduate
 <div class="row">
 <div class="row">
     <div class="col-sm mt-3 mt-md-0 text-center">
-        {% include figure.liquid path="assets/img/stereo_ov.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/stereo_ov.jpg" class="img-fluid rounded z-depth-1" %}
         <div class="caption">[ 전체 시스템 구조 ]</div>
     </div>
 
