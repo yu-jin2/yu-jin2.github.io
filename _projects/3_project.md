@@ -53,7 +53,7 @@ category: Undergraduate
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0 text-center">
-    {% include figure.liquid loading="eager" path="assets/img/exp.png" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/img/exp_r.jpg" class="img-fluid rounded z-depth-1" %}
     <div class="caption">[ 실험 환경 ]</div>
   </div>
   <div class="col-sm mt-3 mt-md-0 text-center">
