@@ -5,41 +5,41 @@
   date: 2025-11
   location: " 제주도, 대한민국"
   selected: true
-  url: https://ipnt.or.kr/2025proc/122?bo_table=2025proc&wr_id=122&rewrite=1&page=1&device=pc
+  url: "https://ipnt.or.kr/2025proc/122?bo_table=2025proc&wr_id=122&rewrite=1&page=1&device=pc"
 
 - title: "근접 주파수 대역 다중 위성군 신호를 이용한 수신기 위치 결정 성능 분석"
   event: "2025년 항법시스템학회 정기학술대회 / 제2저자"
   type: conference
   date: 2025-11
   location: " 제주도, 대한민국"
-  url: https://ipnt.or.kr/2025proc/90?bo_table=2025proc&wr_id=90&rewrite=1&page=1&device=pc
+  url: "https://ipnt.or.kr/2025proc/90?bo_table=2025proc&wr_id=90&rewrite=1&page=1&device=pc"
 
 - title: "스테레오 카메라의 캘리브레이션 정확도 비교"
   event: "2025 제40회 제어로봇시스템학회 학술대회 / 제1저자/ 발표자"
   type: conference
   date: 2025-06
   location: " 전주, 대한민국"
-  url: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12313555
+  url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12313555"
 
 - title: "소프트웨어 정의 라디오 기반 항법 위성 및 저궤도 위성 활용 연구"
   event: "2024년 항법시스템학회 정기학술대회 / 제4저자 / 우수논문상 수상"
   type: conference
   date: 2024-11
   location: " 제주도, 대한민국"
-  url: https://ipnt.or.kr/2024proc/15
+  url: "https://ipnt.or.kr/2024proc/15"
 
 
 - title: "스마트폰 기압계를 활용한 다층 환경에서의 고도 추정 연구"
   event: "제어로봇시스템학회 논문지 (SCOPUS, KCI) / 제5저자"
   type: journal
   date: 2025-09
-  url: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12434655
+  url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12434655"
 
 - title: "스마트폰 내 탑재된 센서와 외부 GNSS 수신기의 융합을 통한 측위 시스템에 관한 연구"
   event: "제어로봇시스템학회 논문지 (SCOPUS, KCI) / 공동 1저자"
   type: journal
   date: 2024-10
   selected: true
-  url: https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11936408
+  url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11936408"
 
   
