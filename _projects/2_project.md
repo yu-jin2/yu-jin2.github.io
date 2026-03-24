@@ -59,7 +59,7 @@ category: Graduate
     </div>
 
     <div class="col-sm mt-3 mt-md-0 text-center">
-        {% include figure.liquid path="assets/img/stereo_sensor.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/sensor.jpg" class="img-fluid rounded z-depth-1" %}
         <div class="caption">[ 센서 구성 ]</div>
     </div>
 
