@@ -65,6 +65,6 @@ category: Undergraduate
   </div>
   <div class="col-sm mt-3 mt-md-0 text-center">
     {% include figure.liquid loading="eager" path="assets/img/lstm_3.jpg" class="img-fluid rounded z-depth-1" %}
-    <div class="caption">[ 조리시간 예측 정확도 향상 비교 ]</div>
+    <div class="caption">[ 조리시간 예측 정확도 향상 비교(No-LSTM,LSTM) ]</div>
   </div>
 </div>
