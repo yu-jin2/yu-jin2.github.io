@@ -429,9 +429,9 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-lstm-기반-다중-서빙-로봇-목적지-병합-배차-시스템",
+          title: 'LSTM 기반 다중 서빙 로봇 목적지 병합 배차 시스템',
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
             },},{id: "projects-project-6",
