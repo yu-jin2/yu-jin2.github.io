@@ -67,16 +67,26 @@ ninja.data = [{
           description: "Smartphone and external GNSS receiver integration for more reliable outdoor positioning.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-robot-delivery-challenge",
-          title: 'Robot Delivery Challenge',
-          description: "Vision-based mission logic for QR and object recognition in an autonomous flight challenge.",
+            },},{id: "projects-velodyne-vlp-16-voxel-analysis-pipeline",
+          title: 'Velodyne VLP-16 Voxel Analysis Pipeline',
+          description: "Raw UDP packet parsing, accumulated voxel analysis, and RANSAC road-plane detection.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-lstm-based-multi-robot-dispatch-optimization",
-          title: 'LSTM-Based Multi-Robot Dispatch Optimization',
-          description: "Time-series prediction and batch dispatch for a simulated multi-robot serving system.",
+            },},{id: "projects-end-to-end-autonomous-driving-ai",
+          title: 'End-to-End Autonomous Driving AI',
+          description: "Isaac Sim, HybridNet, and PPO-based driving policy with a real-time vision observation pipeline.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
+            },},{id: "projects-gps-denied-ugv-path-planning-with-uncertainty-map",
+          title: 'GPS-Denied UGV Path Planning with Uncertainty Map',
+          description: "A* warm start and Levenberg-Marquardt trajectory optimization under GPS-denied conditions.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_project/";
+            },},{id: "projects-lockheed-martin-falcon-challenge",
+          title: 'Lockheed Martin Falcon Challenge',
+          description: "YOLOv7 and HSV-based obstacle recognition for drone autonomous flight.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_project/";
             },},{
         id: 'social-email',
         title: 'email',
