@@ -27,8 +27,9 @@ Camera-LiDAR calibration is challenging when LiDAR observations are sparse and n
 
 - Implemented an intensity-based LiDAR feature extraction pipeline.
 - Designed and verified an integrated stereo camera and 2D LiDAR calibration workflow.
-- Achieved sub-centimeter-level alignment error in repeated experimental conditions.
-- Presented the work at IPNT Conference 2025.
+- Reduced depth-direction alignment error by 90.4% compared with conventional baselines.
+- Achieved 1-2 cm point-cloud alignment accuracy in repeated experimental conditions.
+- Submitted a first-author paper to IEEE Sensors Journal (SCIE).
 
 ### Tech Stack
 

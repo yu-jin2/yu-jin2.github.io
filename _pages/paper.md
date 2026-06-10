@@ -15,7 +15,7 @@ nav_order: 1
 <div class="card mt-3">
   <div class="card-body">
     <h5 class="card-title">{{ paper.title }}</h5>
-    <p class="card-text text-muted">{{ paper.event }} &nbsp;|&nbsp; {{ paper.date }}</p>
+    <p class="card-text text-muted">{{ paper.event }} &nbsp;|&nbsp; {{ paper.date }}{% if paper.note %} &nbsp;|&nbsp; {{ paper.note }}{% endif %}</p>
     <div>
       {% if paper.url %}
       <a href="{{ paper.url }}" target="_blank" class="btn btn-sm btn-outline-secondary">Paper</a>
@@ -34,7 +34,7 @@ nav_order: 1
 <div class="card mt-3">
   <div class="card-body">
     <h5 class="card-title">{{ paper.title }}</h5>
-    <p class="card-text text-muted">{{ paper.event }} &nbsp;|&nbsp; {{ paper.date }} &nbsp;|&nbsp; {{ paper.location }}</p>
+    <p class="card-text text-muted">{{ paper.event }} &nbsp;|&nbsp; {{ paper.date }}{% if paper.location %} &nbsp;|&nbsp; {{ paper.location }}{% endif %}{% if paper.note %} &nbsp;|&nbsp; {{ paper.note }}{% endif %}</p>
     <div>
       {% if paper.url %}
       <a href="{{ paper.url }}" target="_blank" class="btn btn-sm btn-outline-secondary">Paper</a>

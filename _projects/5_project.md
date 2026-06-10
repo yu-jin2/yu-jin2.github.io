@@ -1,51 +1,34 @@
 ---
 layout: page
-title: LSTM-Based Multi-Robot Dispatch Optimization
-description: Time-series prediction and batch dispatch for a simulated multi-robot serving system.
-img: assets/img/lstm_1.jpg
+title: End-to-End Autonomous Driving AI
+description: Isaac Sim, HybridNet, and PPO-based driving policy with a real-time vision observation pipeline.
 importance: 5
 category: Undergraduate
 ---
 
-## Project: LSTM-Based Multi-Robot Dispatch Optimization
+## Project: End-to-End Autonomous Driving AI
 
-> LSTM-based time prediction improved cook-time prediction error and reduced average waiting time in a multi-robot dispatch simulation.
+> A simulation-based autonomous driving pipeline that combines visual scene understanding with reinforcement learning.
 
 ### Background
 
-Conventional dispatch systems often rely on the current state only, which makes them less responsive to time-dependent order patterns. Food preparation and serving workflows also have sequential dependencies that are well suited to time-series modeling.
+End-to-end driving policies need compact but informative observations from camera-based perception. This project designed a vision pipeline that converts scene information into reinforcement-learning observations for real-time control.
 
 ### Approach
 
-- Designed a simulated multi-serving-robot environment.
-- Generated time-series data reflecting order flow, table demand, and repeated menu patterns.
-- Built LSTM prediction models for cook time and meal time.
-- Compared LSTM prediction against a linear-regression baseline.
-- Designed a batch-serving dispatch algorithm using predicted completion times.
+- Built a HybridNet-based vision pipeline for lane and scene understanding.
+- Generated 84-dimensional observation vectors including lane deviation, pixel ratios, and segmentation-mask features.
+- Connected NVIDIA Isaac Sim with stable-baselines3 through a TCP socket server-client architecture to resolve dependency conflicts.
+- Validated the system against an Oracle agent in simulation.
 
 ### Results
 
-- Reduced cook-time prediction MAE by approximately 33%.
-- Reduced average waiting time by approximately 39% in the dispatch simulation.
-- Verified that time-series prediction can improve practical robot dispatch efficiency.
+- Ran more than 2,000 validation steps in Isaac Sim.
+- Maintained average track-center deviation at or below 0.09 m in Oracle-agent validation.
+- Established a modular perception-to-control interface for reinforcement-learning experiments.
 
 ### Tech Stack
 
-- Python, TensorFlow, scikit-learn, pandas, NumPy, Matplotlib
-- Google Colab
-- LSTM, linear regression, greedy dispatch optimization
-
-<div class="row">
-  <div class="col-sm mt-3 mt-md-0 text-center">
-    {% include figure.liquid loading="eager" path="assets/img/lstm_2.jpg" class="img-fluid rounded z-depth-1" %}
-    <div class="caption">Multi-robot dispatch comparison</div>
-  </div>
-  <div class="col-sm mt-3 mt-md-0 text-center">
-    {% include figure.liquid loading="eager" path="assets/img/lstm_1.jpg" class="img-fluid rounded z-depth-1" %}
-    <div class="caption">Waiting-time distribution after optimization</div>
-  </div>
-  <div class="col-sm mt-3 mt-md-0 text-center">
-    {% include figure.liquid loading="eager" path="assets/img/lstm_3.jpg" class="img-fluid rounded z-depth-1" %}
-    <div class="caption">Prediction accuracy comparison</div>
-  </div>
-</div>
+- Python, PyTorch, stable-baselines3
+- NVIDIA Isaac Sim, HybridNet
+- TCP socket communication

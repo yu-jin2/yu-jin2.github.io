@@ -1,9 +1,15 @@
+- title: "Intensity-Gradient-Based Integrated Calibration of a Stereo Camera and 2D LiDAR Using a Standard Planar Checkerboard"
+  event: "IEEE Sensors Journal (SCIE)"
+  type: journal
+  date: 2026
+  selected: true
+  note: "First Author, Under Review"
+
 - title: "Integrated Calibration of a Stereo Camera and 2D LiDAR"
   event: "IPNT Conference 2025 / Oral Presentation"
   type: conference
   date: 2025-11
   location: "Jeju, Republic of Korea"
-  selected: true
   url: "https://ipnt.or.kr/2025proc/122?bo_table=2025proc&wr_id=122&rewrite=1&page=1&device=pc"
 
 - title: "Performance Analysis of Receiver Positioning Using Multi-Constellation Signals Near the Carrier Frequency"

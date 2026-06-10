@@ -1,22 +1,34 @@
 ---
 layout: page
-title: Robot Delivery Challenge
-description: Vision-based mission logic for QR and object recognition in an autonomous flight challenge.
+title: Velodyne VLP-16 Voxel Analysis Pipeline
+description: Raw UDP packet parsing, accumulated voxel analysis, and RANSAC road-plane detection.
 importance: 4
-category: Undergraduate
+category: Graduate
 ---
 
-## Project: Robot Delivery Challenge
+## Project: Velodyne VLP-16 Voxel Analysis Pipeline
 
-Participated in a Python-based autonomous flight project as part of a three-person team.
+> A ROS-independent point-cloud processing pipeline for automotive LiDAR data.
 
-- Proposed technical implementation ideas and coordinated the team approach.
-- Developed camera-based QR-code and circle-recognition logic.
-- Implemented mission handling and obstacle-avoidance behavior.
-- Completed the assigned flight route and strengthened practical collaboration experience.
+### Background
+
+Automotive perception research often relies on middleware abstractions, but raw LiDAR packet handling is useful for understanding the full sensor pipeline. This project processed Velodyne VLP-16 packets directly and analyzed accumulated urban point clouds.
+
+### Approach
+
+- Parsed 1206-byte UDP packets directly, including 12 firing blocks and 16 channels.
+- Processed 433 accumulated frames from the KITTI urban driving dataset.
+- Extracted voxel attributes including occupancy, mean reflectance, point density, and height variance.
+- Applied Z-layer reliable-voxel filtering before RANSAC road-plane detection.
+
+### Results
+
+- Built a ROS-independent C++ parsing and analysis pipeline.
+- Improved road-plane RANSAC inlier ratio from 22% to 77%.
+- Produced voxel-level features for downstream perception and calibration analysis.
 
 ### Tech Stack
 
-- Python
-- Camera-based recognition
-- Autonomous mission logic
+- C++, Python
+- Velodyne VLP-16, KITTI dataset
+- Voxel analysis, RANSAC
