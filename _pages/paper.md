@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /paper/
-title: Paper
-description: A list of my papers.
+title: Publications
+description: Journal and conference publications.
 nav: true
 nav_order: 1
 ---
