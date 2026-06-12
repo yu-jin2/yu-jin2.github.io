@@ -12,6 +12,7 @@
   location: "Seoul, Republic of Korea"
   selected: true
   note: "Best Paper Award, 1st Author"
+  url: "/assets/pdf/ipnt_spring_2026_integrated_calibration.pdf"
 
 - title: "Integrated Calibration of a Stereo Camera and 2D LiDAR"
   event: "IPNT Conference 2025"
