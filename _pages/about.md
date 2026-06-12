@@ -2,15 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: Multi-sensor calibration and 3D vision engineer focused on reliable positioning systems.
+subtitle: Multi-sensor calibration and 3D vision engineer working on sensor fusion and perception for autonomous systems.
 
 profile:
   align: right
   image: profile_jin.jpg
   image_circular: false
   more_info: >
-    <p>M.S., Korea Aerospace University, expected Feb. 2026</p>
-    <p>B.S., Korea Aerospace University, Aug. 2024</p>
+    <p>Research Engineer, Aviation Electronics Research Institute, KAU (Mar. 2026-)</p>
+    <p>M.S., Korea Aerospace University, Feb. 2026 (GPA 4.50/4.50)</p>
+    <p>B.S., Korea Aerospace University, Aug. 2024 (GPA 4.02/4.50)</p>
 
 selected_papers: false
 social: false
@@ -34,7 +35,7 @@ I also have experience with GNSS/INS/SLAM sensor fusion for positioning in dynam
 
 **Research interests:** multi-sensor fusion, camera-LiDAR calibration, 3D vision, GNSS/SLAM positioning, robotics perception
 
-**Tools:** C++, Python, MATLAB, OpenCV, ROS, RTKLIB, CATIA
+**Tools:** C++, Python, MATLAB, OpenCV, Eigen, ROS, RTKLIB, CATIA
 
 <br>
 
@@ -42,7 +43,15 @@ I also have experience with GNSS/INS/SLAM sensor fusion for positioning in dynam
 
 - Submitted a first-author paper to **IEEE Sensors Journal (SCIE)**: *Intensity-Gradient-Based Integrated Calibration of a Stereo Camera and 2D LiDAR Using a Standard Planar Checkerboard*.
 - Achieved a **90.4% reduction in depth-direction alignment error** through intensity-gradient feature extraction and nonlinear least-squares optimization.
-- Implemented Gauss-Newton and Levenberg-Marquardt optimization in C++ with Eigen, including Jacobian derivation and numerical conditioning.
+- Co-first-authored a SCOPUS-indexed paper on GNSS/INS/SLAM fusion positioning, improving RMSE by 56% (0.571 m to 0.251 m) with a 15-state error-state EKF.
+
+<br>
+
+## Awards
+
+- Best Paper Award, IPNT Spring Conference 2026 (1st author) - Integrated calibration of 2D LiDAR and stereo camera
+- Best Paper Award, IPNT Conference 2024 (co-author) - SDR-based GNSS and LEO satellite navigation
+- Capstone Design Excellence Award, Korea Aerospace University, 2024
 
 <br>
 
