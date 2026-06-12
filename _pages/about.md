@@ -31,7 +31,7 @@ I also have experience with GNSS/INS/SLAM sensor fusion for positioning in dynam
 
 **Research interests:** multi-sensor fusion, camera-LiDAR calibration, 3D vision, GNSS/SLAM positioning, robotics perception
 
-**Tools:** C++, Python, MATLAB, OpenCV, Eigen, ROS, RTKLIB, CATIA
+**Tools:** C++, Python, MATLAB, OpenCV, ROS, ROS2, RTKLIB, CATIA
 
 <div style="clear: both;"></div>
 
