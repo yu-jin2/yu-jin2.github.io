@@ -8,10 +8,6 @@ profile:
   align: right
   image: profile_jin.jpg
   image_circular: false
-  more_info: >
-    <p>Research Engineer, Aviation Electronics Research Institute, KAU (Mar. 2026-)</p>
-    <p>M.S., Korea Aerospace University, Feb. 2026 (GPA 4.50/4.50)</p>
-    <p>B.S., Korea Aerospace University, Aug. 2024 (GPA 4.02/4.50)</p>
 
 selected_papers: false
 social: false
@@ -36,6 +32,16 @@ I also have experience with GNSS/INS/SLAM sensor fusion for positioning in dynam
 **Research interests:** multi-sensor fusion, camera-LiDAR calibration, 3D vision, GNSS/SLAM positioning, robotics perception
 
 **Tools:** C++, Python, MATLAB, OpenCV, Eigen, ROS, RTKLIB, CATIA
+
+<div style="clear: both;"></div>
+
+<br>
+
+## Current & Education
+
+- Research Engineer, Aviation Electronics Research Institute, KAU (Mar. 2026-)
+- M.S., Korea Aerospace University, Feb. 2026 (GPA 4.50/4.50)
+- B.S., Korea Aerospace University, Aug. 2024 (GPA 4.02/4.50)
 
 <br>
 
