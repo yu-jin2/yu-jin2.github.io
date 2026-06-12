@@ -2,11 +2,18 @@
   event: "IEEE Sensors Journal (SCIE)"
   type: journal
   date: 2026
-  selected: true
   note: "First Author, Under Review"
 
+- title: "An Integrated Calibration Approach for 2D LiDAR and Stereo Camera Systems Utilizing Intensity Data"
+  event: "IPNT Spring Conference 2026"
+  type: conference
+  date: 2026-05-20
+  location: "Seoul, Republic of Korea"
+  selected: true
+  note: "Best Paper Award, 1st Author"
+
 - title: "Integrated Calibration of a Stereo Camera and 2D LiDAR"
-  event: "IPNT Conference 2025 / Oral Presentation"
+  event: "IPNT Conference 2025"
   type: conference
   date: 2025-11
   location: "Jeju, Republic of Korea"
@@ -20,17 +27,18 @@
   url: "https://ipnt.or.kr/2025proc/90?bo_table=2025proc&wr_id=90&rewrite=1&page=1&device=pc"
 
 - title: "Comparison of Stereo Camera Calibration Accuracy"
-  event: "Korean Society for Aeronautical and Space Sciences Conference 2025 / Oral Presentation"
+  event: "ICROS Annual Conference 2025"
   type: conference
   date: 2025-06
   location: "Jeonju, Republic of Korea"
   url: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE12313555"
 
 - title: "Software-Defined Radio-Based Study on GNSS Formation and High-Orbit Formation Applications"
-  event: "IPNT Conference 2024 / Undergraduate Paper Award"
+  event: "IPNT Conference 2024"
   type: conference
   date: 2024-11
   location: "Jeju, Republic of Korea"
+  note: "Best Paper Award"
   url: "https://ipnt.or.kr/2024proc/15"
 
 - title: "Altitude Estimation in Cycling Environments Using a Smartphone Barometer"
