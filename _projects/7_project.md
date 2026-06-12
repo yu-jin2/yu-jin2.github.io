@@ -2,6 +2,7 @@
 layout: page
 title: Lockheed Martin Falcon Challenge
 description: YOLOv7 and HSV-based obstacle recognition for drone autonomous flight.
+img: assets/img/p6_fig_architecture.png
 importance: 7
 category: Undergraduate
 ---

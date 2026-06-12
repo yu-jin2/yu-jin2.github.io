@@ -2,7 +2,7 @@
 layout: page
 title: Stereo Camera Calibration Accuracy Comparison
 description: Calibration accuracy analysis under limited image data and varying capture conditions.
-img: assets/img/stereo_ov.jpg
+img: assets/img/p3_fig_std_comparison.png
 importance: 2
 category: Graduate
 ---

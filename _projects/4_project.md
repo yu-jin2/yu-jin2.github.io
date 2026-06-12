@@ -2,6 +2,7 @@
 layout: page
 title: Velodyne VLP-16 Voxel Analysis Pipeline
 description: Raw UDP packet parsing, accumulated voxel analysis, and RANSAC road-plane detection.
+img: assets/img/p4_fig_ransac.png
 importance: 4
 category: Graduate
 ---

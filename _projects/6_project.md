@@ -2,6 +2,7 @@
 layout: page
 title: GPS-Denied UGV Path Planning with Uncertainty Map
 description: A* warm start and Levenberg-Marquardt trajectory optimization under GPS-denied conditions.
+img: assets/img/p5_fig_tradeoff.png
 importance: 6
 category: Graduate
 ---

@@ -2,6 +2,7 @@
 layout: page
 title: End-to-End Autonomous Driving AI
 description: Isaac Sim, HybridNet, and PPO-based driving policy with a real-time vision observation pipeline.
+img: assets/img/p7.png
 importance: 5
 category: Undergraduate
 ---
