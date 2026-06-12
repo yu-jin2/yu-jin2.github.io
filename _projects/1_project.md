@@ -37,11 +37,9 @@ This project proposes an integrated calibration method for estimating the extrin
 - **Numerical optimization:** Implemented Gauss-Newton and Levenberg-Marquardt in C++ with Eigen, and handled conditioning issues through column normalization.
 - **Evaluation:** Quantitatively evaluated reprojection error, depth-direction alignment error, and point-cloud alignment visualization.
 
-<div class="row">
-  <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/lidar.png" class="img-fluid rounded z-depth-1" %}
-    <div class="caption"><em>Fig. 1. Overall pipeline of the proposed integrated calibration system. The stereo camera provides 3D reference points, while the 2D LiDAR provides intensity-based feature points for joint extrinsic parameter estimation.</em></div>
-  </div>
+<div class="text-center my-4">
+  <img src="{{ '/assets/img/lidar.png' | relative_url }}" alt="Integrated calibration system structure" class="img-fluid rounded z-depth-1" style="max-width: 720px; width: 100%; height: auto;">
+  <div class="caption"><em>Overall pipeline of the proposed integrated calibration system. The stereo camera provides 3D reference points, while the 2D LiDAR provides intensity-based feature points for joint extrinsic parameter estimation.</em></div>
 </div>
 
 ## Results
@@ -50,29 +48,23 @@ This project proposes an integrated calibration method for estimating the extrin
 - Achieved average position error within 1 cm in the forward (+X) and downward (+Z) axes, and within 2 cm in the rightward (+Y) axis.
 - Reduced depth-direction alignment error by 90.4% compared with conventional baselines.
 
-<div class="row">
-  <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/fig_bar_errx.png" class="img-fluid rounded z-depth-1" %}
-    <div class="caption"><em>Fig. 2. Comparison of average forward-axis error (Err.X) among the proposed method and three conventional calibration approaches. The proposed method achieves the lowest mean error across all experimental conditions.</em></div>
-  </div>
+<div class="text-center my-4">
+  <img src="{{ '/assets/img/fig_bar_errx.png' | relative_url }}" alt="Mean forward-axis error comparison" class="img-fluid rounded z-depth-1" style="max-width: 720px; width: 100%; height: auto;">
+  <div class="caption"><em>Fig. 1. Comparison of mean forward-axis error (Err.X) among the proposed method and three conventional calibration approaches. The proposed method achieves 10.90 mm, corresponding to up to 90.4% error reduction compared with conventional baselines.</em></div>
 </div>
 
-<div class="row">
-  <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/fig_line_errx.png" class="img-fluid rounded z-depth-1" %}
-    <div class="caption"><em>Fig. 3. Distance-wise forward-axis error (Err.X) comparison across the 2.0-5.75 m evaluation range. The proposed method consistently achieves the lowest error at all distances.</em></div>
-  </div>
+<div class="text-center my-4">
+  <img src="{{ '/assets/img/fig_line_errx.png' | relative_url }}" alt="Distance-wise forward-axis error comparison" class="img-fluid rounded z-depth-1" style="max-width: 720px; width: 100%; height: auto;">
+  <div class="caption"><em>Fig. 2. Distance-wise forward-axis error (Err.X) comparison across the 2.00-5.75 m evaluation range. The proposed method maintains consistently low error at all target distances.</em></div>
 </div>
 
 ## Visualization
 
 Before optimization, the reconstructed 3D point cloud, shown with red crosses, shows noticeable structural curvature due to inaccurate initial calibration parameters. After applying the proposed error-state optimization, the point cloud, shown with blue circles, is aligned into a straight plane, demonstrating the algorithm's ability to correct depth-dependent distortions.
 
-<div class="row">
-  <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/fig_top_view.png" class="img-fluid rounded z-depth-1" %}
-    <div class="caption"><em>Fig. 4. Top-view visualization of reconstructed 3D points before (red crosses) and after (blue circles) the proposed optimization. The optimization effectively corrects depth-dependent distortions and recovers accurate metric scale.</em></div>
-  </div>
+<div class="text-center my-4">
+  <img src="{{ '/assets/img/fig_top_view.png' | relative_url }}" alt="Top-view point cloud before and after optimization" class="img-fluid rounded z-depth-1" style="max-width: 720px; width: 100%; height: auto;">
+  <div class="caption"><em>Fig. 3. Top-view visualization of reconstructed 3D points before (red crosses) and after (blue circles) the proposed optimization. The optimization corrects depth-dependent structural curvature and recovers accurate metric scale.</em></div>
 </div>
 
 ## Tech Stack & Publication

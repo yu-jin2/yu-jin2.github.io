@@ -29,6 +29,16 @@ Conventional stereo calibration can accumulate error when intrinsic and extrinsi
 - Estimated focal length and baseline parameters with low relative error.
 - Presented the work at the Korean Society for Aeronautical and Space Sciences Conference 2025.
 
+<div class="text-center my-4">
+  <img src="{{ '/assets/img/p3_fig_std_comparison.png' | relative_url }}" alt="Standard deviation of reprojection RMSE versus distance" class="img-fluid rounded z-depth-1" style="max-width: 720px; width: 100%; height: auto;">
+  <div class="caption"><em>Fig. 1. Standard deviation of reprojection RMSE versus measurement distance for the proposed method and OpenCV stereoCalibrate. The proposed method maintains stable calibration behavior across the full range, including the near-field region where OpenCV shows elevated variance.</em></div>
+</div>
+
+<div class="text-center my-4">
+  <img src="{{ '/assets/img/p3_fig_param_comparison.png' | relative_url }}" alt="Focal length and baseline parameter comparison" class="img-fluid rounded z-depth-1" style="max-width: 720px; width: 100%; height: auto;">
+  <div class="caption"><em>Fig. 2. Estimated focal length (left) and baseline (right) compared against camera specifications. Both methods recover parameters close to the physical configuration, with the proposed method offering explicit parameter control and traceable computation.</em></div>
+</div>
+
 ### Tech Stack
 
 - C++, OpenCV, FlyCap2
