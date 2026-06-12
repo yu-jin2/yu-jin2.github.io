@@ -2,6 +2,7 @@
   event: "IEEE Sensors Journal (SCIE)"
   type: journal
   date: 2026
+  selected: true
   note: "First Author, Under Review"
 
 - title: "An Integrated Calibration Approach for 2D LiDAR and Stereo Camera Systems Utilizing Intensity Data"

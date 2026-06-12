@@ -61,7 +61,7 @@ I also have experience with GNSS/INS/SLAM sensor fusion for positioning in dynam
 
 <br>
 
-## Selected Publications
+## Selected Publications & Manuscripts
 
 {% assign spaper = site.data.paper | where: "selected", true %}
 {% for paper in spaper %}
